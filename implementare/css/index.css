@@ -1,0 +1,286 @@
+body {
+            margin: 0px;
+            background: white;
+            min-width: 1030px;
+        }
+
+        div#nav-bar {
+            background: url(../img/header-bg.jpg);
+            height: 110px;
+        
+            max-width: 1366px;
+            margin: auto;
+}
+
+        div#nav-bar-cul-alba {
+            background: white;
+            height: 5px;
+        }
+
+        div#elements-nav {
+            height: 100%;
+            width: 85%;
+            margin: auto;
+            max-width: 1366px;
+            min-width: 1030px;
+        }
+
+        div#logo-site {
+            padding-top: 10px;
+            width: 310px;
+            float: left;
+            height: 90px;
+        }
+
+        div#meniu-site {
+            //width: 570px;
+            height: 90px;
+            //background: aquamarine;
+            float: right;
+           // padding-top: 10px;
+        }
+
+        #meniu-site ul li {
+              display: inline-block;
+              margin: 8px;
+              font-size: 20px;
+              font-weight: 600;
+        }
+
+
+        #meniu-site ul li a {
+          color: white;
+          text-decoration: none;
+          cursor: auto;
+          transition: all .3s linear;
+        }
+
+        #meniu-site ul li a:hover {
+          color: #bd8cbf;
+          font-size:22px;
+        }
+
+
+
+button.btnComp1 {
+    border: 0;
+    background: #00bFF3;    
+    border-radius: 4px;    
+    box-shadow: 0 5px 0 #006599;    
+    color: #fff;    
+    cursor: pointer;    
+    font: inherit;    
+    margin: 0;    
+    outline: 0;    
+    padding: 12px 20px;    
+    transition: all .1s linear;
+    font-family: Tabaquera;
+    font-size: 30px;
+}
+
+button.btnComp1:hover{
+    transition: all .5s linear;
+    box-shadow: 0 2px 0 white; 
+    border: 1px solid;
+    background: #006599;  
+    color: #00bFF3;  
+}
+
+
+button.btnComp1:active {
+    box-shadow: 0 2px 0 #006599;    
+    transform: translateY(3px);
+}
+
+
+
+        div#meniu-site ul {
+            padding-top: 30px;
+            -webkit-padding-start: 0px;
+        }
+
+
+        //////////////////////////////////////////////////////////////containarul
+        div#containar {
+            height: 100%;
+        }
+
+        div#containar-prima-parte {
+            height: 550px;
+            background-color: #bd8cbf;
+        
+            background: url(../img/2-blue-gradient1.jpg);
+            width: 100%;
+            margin: auto;
+            max-width: 2600px;
+}
+
+        div#containar-a-doua-parte {
+            height: 690px;
+            background: white;
+        }
+
+
+div#continut_containar_p1 {
+ // background: blue;
+  height: 550px;
+  width: 85%;
+  margin: auto;
+  max-width: 1360px;
+}
+
+div#c1Stanga {
+    float: left;
+   // background: red;
+    height: 550px;
+    width: 45%;
+}
+
+div#c2Dreapta img {
+  padding-left: 35px;
+  width: 45%;
+  height: 50%;
+  padding-top: 25px;
+  float: right;
+  max-width: 500px;
+}
+
+
+div#join_login_btn ul li {    
+    text-decoration: none;    
+    display: inline;    
+    margin: 10px; 
+    }
+
+    div#join_login_btn {
+        margin-top: 60px;
+        height: 60px;
+        width: 470px;
+    }
+
+    div#join_login_btn ul {
+        padding: 0px;
+    }
+
+
+
+
+.titlu-box {
+  //height: 60px;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 950px;
+  margin: auto;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.box-con {
+   // background: beige;
+    width: 450px;
+    height: 200px;
+    margin: 25px;
+    /* display: inline; */
+    float: left;
+}
+
+
+div#box-class {
+    width: 1000px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.box-con img {
+    height: auto;
+    width: 70px;
+}
+
+
+
+
+
+footer {
+    //height: 180px;
+    background: url(../img/footer_background.png);
+    width: auto;
+}
+
+
+
+div#social ul li {
+    display: inline;
+    margin: 10px;
+}
+
+div#social ul li a img {
+    height: 25px;
+}
+
+div#social {
+    //width: 340px;
+    padding-top: 1px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+div#social ul li a {
+    text-decoration: none;
+}
+
+
+div#drepturi-autor {
+  margin: auto;
+  font-size: small;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div#footer-link ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+div#footer-link ul li {
+    display: inline;
+    margin: 5px;
+}
+
+div#footer-link ul {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer hr {
+    width: 60%;
+    max-width: 1366px;
+    color:white;
+}
+
+header {
+    background: url(../img/header-bg1.jpg);
+}
+
+
+div#nav-right {
+    height: 110px;
+    background-color: red;
+    width: 100%;
+    float: right;
+}
+
+
+div#asdad {
+    height: 110px;
+    width: calc(100% - 1366px - (100% - 1366px)/2);
+    float: right;
+    background: url(../img/header-bg2.jpg);
+    overflow: hidden;
+    min-width: 0px;
+}
+
+div#containarCuloare {
+    background: black;
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: ABitEmpty;
+    src: url(ABitEmpty.ttf);
+}
+
+@font-face {
+    font-family: ArippingYarn;
+    src: url(a_ripping_yarn.ttf);
+}
+
+
+@font-face {
+    font-family: WashingtonText-Alternates;
+    src: url(WashingtonText-Alternates.ttf);
+}
+
+
+@font-face {
+    font-family: Tabaquera;
+    src: url(Tabaquera.ttf);
+}
+
+@font-face {
+    font-family: MAXIMUMSECURITY;
+    src: url(MAXIMUMSECURITY.ttf);
+}
+
+
+
+
+div#c1_1 {
+    font-family: ABitEmpty;
+    font-size: 50px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+
+div#c1_2 {
+    font-family: ABitEmpty;    
+    font-size: 26px;    color: white;    
+    margin-left: 18px;
+}
+
+
+
+div#c1_3 {
+    font-family: ArippingYarn;
+    font-size: 41px;
+    margin-top: 50px;
+    margin-left: 18px;
+
+}
+
+div#c1_4 {
+    font-size: 22px;
+    font-family: ABitEmpty;
+    color: white;
+    width: 350px;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.box-con titlu {
+    font-family: WashingtonText-Alternates;
+    font-size: 45px;
+}
+
+
+.box-con p {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    text-transform: inherit;
+    font-weight: inherit;
+}
+
+

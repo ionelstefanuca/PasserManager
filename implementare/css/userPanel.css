@@ -1,0 +1,31 @@
+div#titluPrezentare {
+    width: 600px;
+    margin: auto;
+    font-size: 45px;
+    margin-top: 40px;
+    font-family: cursive;
+    margin-bottom: 70px;
+}
+
+.student {
+    font-size: 20px;
+    font-family: monospace;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+
+div#videoPrezentare {
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+div#titluVideo {
+    font-size: 20px;      font-family: sans-serif;
+    margin: auto;
+    width: 270px;
+    margin-bottom: 10px;
+}

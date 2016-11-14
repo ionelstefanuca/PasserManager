@@ -1,0 +1,136 @@
+div#body-continutGeneratePw {
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#body-continutGeneratePw form{
+	width:600px;
+	margin:0 auto;
+	background-color: rgb(221, 221, 221);
+	padding: 3px 30px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	font-family:sans-serif;
+	border:2px solid black;
+}
+
+div#genPass-stanga{
+	width:250px;
+	float:left;
+	height:150px;
+	border-right:5px solid #909090;
+	border-left:5px solid #909090;
+	padding:10px;
+	border-radius:20px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+div#genPass-dreapta{
+	width:250px;
+	float:right;
+	height:150px;
+	border-right:5px solid #909090;
+	border-left:5px solid #909090;
+	padding:10px;
+	border-radius:20px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+#body-continutGeneratePw form input#parola{
+	width:600px;
+	box-sizing:border-box;
+	height:30px;
+	margin-top:-5px;
+}
+
+#body-continutGeneratePw form input{  
+  margin: 2px auto;
+  height: 20px;
+  background-color: white;
+  text-indent:10px;
+}
+
+#body-continutGeneratePw form input[type='number']{  
+	text-align:center;
+	width:40px;
+}
+
+#body-continutGeneratePw form input[type='submit']{  
+height:50px;
+width:600px;
+margin-left:0;
+background-color:grey;
+letter-spacing:1px;
+border-radius:10px;
+box-sizing:border-box;
+font-size:20px;
+cursor:pointer;
+color:white;
+outline:0;
+border:2px solid black;
+}
+
+#body-continutGeneratePw form input[type='submit']:hover{  
+	background: linear-gradient(#99C0FF, #22C3F7);
+	border:2px solid #EFEFEF;
+	outline:0;
+	color:white;
+}
+
+#body-continutGeneratePw form input[type='checkbox'], #body-continutGeneratePw form input[type='radio']{  
+	vertical-align:middle;
+}
+
+#body-continutGeneratePw form label.optiuniP, #body-continutGeneratePw form label.v2GP{
+	font-size:15px;
+	padding-left:50px;
+	display:block;
+	cursor:pointer;
+}
+
+#body-continutGeneratePw form h3{  
+	text-align:center;
+	margin-bottom:30px;
+	color:#555;
+	height:3px;
+	text-shadow:
+		1px 1px 0 black,
+		2px 2px 0 white,
+		3px 3px 0 #C2C2C2;
+	letter-spacing:3px;
+	text-transform: uppercase;
+	padding-bottom:3px;
+}
+
+#spatiu{
+	width:20px;
+	display:inline-block;
+}
+
+#eroareGen{
+	color:#E70000;
+}
+
+label#lungGenPass{
+	margin-left:20px;
+}
+
+span#tipParolaGen{
+	display:inline-block;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+
+span#varianGenPass{
+	display:block;
+	margin:auto;
+	font-weight:600;
+	width:120px;
+	text-align:center;
+	margin-top:-20px;
+	margin-bottom:20px;
+	font-size:20px;
+}

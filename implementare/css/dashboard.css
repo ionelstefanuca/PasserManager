@@ -1,0 +1,304 @@
+body {
+    background: #EFEFEF;
+    max-width: 1366px;
+    min-width: 1200px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+div#header {
+	background: linear-gradient(#C2C2C2, #999, #999, grey);
+    height: 70px;
+    width: 76%;
+    float: right;
+    min-width: 900px;
+}
+
+div#sidebar {
+    /*background: #00BFF3;*/
+	background: linear-gradient(to right, #00BFF3, #66CCFF, #66CCFF, #00BFF3); /* Standard syntax (must be last) */
+    width: 25%;
+    float: left;
+    height: 100%;
+    min-height: 750px;
+    max-width: 340px;
+    position: fixed;
+    overflow: hidden;
+    min-width: 335px;
+}
+
+div#continut {
+    background: #EFEFEF;
+    height: 100%;
+    width: 75%;
+    float: right;
+    min-height: 610px;
+    min-width: 700px;
+    margin-top: 10px;
+}
+
+div#titlu-continut h3 {
+    font-size: 1.1em;
+    margin-left: 40px;
+}
+
+
+#logoUser a img {
+    height: 90px;
+    width: 240px;
+}
+
+div#logoUser {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#headSearch {
+    height: 40px;
+    width: 450px;
+    margin-top: 12px;
+    float: left;
+    margin-left: 50px;
+}
+
+div#headLogout {
+    height: 40px;
+    width: 120px;
+    margin-top: 12px;
+    float: right;
+    margin-right: 0;
+}
+
+div#body-continut {
+    margin: auto;
+    width: 900px;
+	/*border:2px solid black;*/
+}
+
+
+
+/*Password adding form*/
+#addpass_form{
+    margin:auto;
+    width:350px;
+    background-color: #DDD;
+    padding: 30px 30px 30px;
+	border-radius: 20px;
+    border:2px solid black;
+    font-family:sans-serif;
+	margin-bottom:30px;
+}
+
+#addpass_form h3{  
+	text-align:center;
+	margin-top:-10px;
+	margin-bottom:30px;
+	color:#555;
+	height:3px;
+	text-shadow:
+		1px 1px 0 black,
+		2px 2px 0 white,
+		3px 3px 0 #C2C2C2;
+	letter-spacing:3px;
+	text-transform: uppercase;
+	padding-bottom:3px;
+}
+
+#addpass_form input{
+    width:350px;
+    margin:5px auto;
+    height:30px;
+    background-color: white;
+    text-align: center;
+}
+
+#addpass_form input[type="submit"]{
+    width:350px;
+    height:35px;
+    padding:0;
+    outline:0;
+	margin-left:0;
+	background-color:grey;
+	color:white;
+	border:2px solid black;
+	cursor:pointer;
+	letter-spacing:1px;	
+	border-radius:10px;
+	box-sizing:border-box;
+	font-size:15px;
+}
+
+#addpass_form input[type="submit"]:hover{
+	background: linear-gradient(#99C0FF, #22C3F7);
+	border:2px solid #EFEFEF;
+	outline:0;
+	color:white;
+}
+
+#third_selection{
+    float:left;
+    width: 170px;
+    height:30px;
+	margin:5px 0;
+    background-color: white;
+	outline:0;
+	color:#B1A9B1;
+}
+
+#second_select{
+	float:right;
+    width:170px;
+    height:30px;
+    margin:5px 0;
+	background-color:white;
+	outline:0;
+	color:#B1A9B1;
+}
+
+#third_selection:focus, #second_select:focus{
+	color:black;
+}
+
+#addpass_form textarea{
+	padding:0;
+	width:350px;
+	margin:5px auto;
+	height:70px;
+    background-color: white;
+    resize:none;
+}
+
+
+
+
+
+div#headLogout form input{
+    /*padding:10px;*/
+    margin-right:10px;
+	margin-top:3px;
+	background:url('../img/cris/logout.png') no-repeat;
+	width:45px;
+	height:45px;
+	outline:0;
+	border:0;
+	cursor:pointer;
+}
+
+
+div#headSearch form input{
+	padding-left:10px;
+	width:200px;
+	height:36px;
+	outline:0;
+	border-right:5px solid grey;
+	border-radius:5px 0 0 5px;
+	border-style:none;
+}
+
+div#headSearch form input[type="submit"]{	
+	width:40px;
+	height:40px;
+	outline:0;
+	border:0;
+	background:url('../img/cris/70search.png') no-repeat;
+	margin-left:-10px;
+	cursor:pointer;
+}
+
+
+div#helloUser {
+    margin: auto;
+    height: 100px;
+    width: 240px;
+    margin-top: 40px;
+}
+
+div#helloUser img {
+    float: left;
+    height: 90px;
+    width: 90px;
+	display: block;
+	padding: 3px;
+	border: solid;
+	border-color: #ddd #aaaaaa #aaa #dddddd;
+	border-width: 1px 1px 1px 1px;
+	background-color: white;
+}
+
+div#helloUser p {
+	padding-top:6px;
+    font-size: 25px;    
+    display: block;    
+    -webkit-margin-before: 0em;    
+    -webkit-margin-after: 0em;    -webkit-margin-start: 0px;    -webkit-margin-end: 0px;
+    margin-left: 120px;
+    font-style: italic;
+}
+
+
+/*Simple left menu*/
+div#meniuDashboard{
+    margin-top:35px;
+    line-height:1.8em;
+}
+
+div#meniuDashboard ul{
+    list-style-type:none;
+    margin-left:-5px;
+    font-size:1.3em;
+}
+
+div#meniuDashboard ul a{
+    text-decoration:none;
+    color:black;
+}
+
+div#meniuDashboard ul li.main{
+	line-height:40px;
+    margin-left:-5px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    /* color: white; */
+}
+
+div#meniuDashboard ul li.sec{
+    line-height:23px;
+	text-indent:40px;
+}
+
+div#meniuDashboard ul li.sec:hover{
+	text-shadow:
+		1px 1px #AAA,
+		1px 1px #999;
+}
+
+div#meniuDashboard ul li.sec:hover:before{
+	content: url('../img/cris/cog.png');
+	margin-right:10px;
+}
+
+div#meniuDashboard nav {
+    width: 275px;
+    margin: auto;
+}
+
+div#meniuDashboard ul li.main:hover {
+    color: white;
+	text-shadow:
+		1px 1px #000,
+		2px 2px #777;
+}
+
+div#erori {
+    border-radius: 20px;
+    background: rgb(221, 221, 221);
+    width: 360px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: crimson;
+}

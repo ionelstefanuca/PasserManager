@@ -1,0 +1,206 @@
+﻿/***** LOGIN & REGISTER FORMS *****/
+div#inLogin{
+	margin:-18px auto;
+	padding:100px 0 20px;
+	min-height:470px;
+	background-color:#303656;
+}
+
+div#divCuFormLogin{
+	margin:-20px auto;
+	width: 300px;
+	padding:10px;
+}
+
+form#formLogare, form#formRegister {
+    width: 250px;
+	margin: auto;
+}
+
+form#formLogare fieldset, form#formRegister fieldset{
+	width:250px;
+	padding:10px;
+	border:2px solid white;
+	border-radius:10px;
+	margin-left:-10px;
+}
+
+form#formLogare fieldset legend, form#formRegister fieldset legend{
+	color: white;
+	font-size:18px;
+	font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
+	background-color:#28A1D1;
+	border:2px solid white;
+	border-radius:10px;
+}
+
+form#formLogare  input, form#formRegister input{
+    outline:0;
+	background-color: white;
+	width:250px;
+	margin: 5px auto;
+	border: 2px solid #28A1D1;
+	border-radius:5px;
+	color: #A1ABAC;
+	font-size:15px;
+	text-align:center;
+	padding:10px;
+    box-sizing: content-box;
+}
+
+form#formLogare  input:hover, form#formLogare  input:focus, form#formRegister input:hover, form#formRegister input:focus {
+    background-color: #C1E4F2;
+	color:black;
+}
+
+form#formLogare  input[type="submit"], form#formRegister input[type="submit"] {
+	background-color:#00A2C9;
+	font-size:16px;
+	margin: 15px auto;
+	color: white;
+	border-style:outset;
+	border: 2px solid white;
+	border-radius:4px;
+	cursor:pointer;
+}
+
+form#formLogare  input[type="submit"]:hover, form#formLogare  input[type="submit"]:active, form#formRegister input[type="submit"]:hover,  form#formRegister input[type="submit"]:active{
+	background-color: #44ADCC;
+	border-color: #023240;
+	cursor: pointer;
+	color: #023240;
+	transition: all .3s linear;
+}
+
+
+div#loginEroare{
+	width:300px;
+	color:white;
+	font-size:14px;
+	margin-left:0;
+}
+
+div#registerEroare{
+	width:300px;
+	color:white;
+	font-size:14px;
+	margin:auto;
+}
+
+div#loginEroare p:not(:empty), div#registerEroare p:not(:empty) {
+	display:block;
+	font-family:sans-serif;
+	color:red;
+	width:300px;
+	border:2px solid white;
+	border-radius:5px;
+	padding:10px;
+	background-color:black;
+	text-align:center;
+	line-height:15px;
+}
+
+/**************************************************************/
+
+div#inRegister {
+	margin:-18px auto;
+	padding:20px 0;
+	min-height:470px;
+	background-color:#303656;
+}
+
+div#divCuFormRegister {
+	margin:auto;
+	width:300;
+	padding:10px;
+}
+
+form#formRegister select{
+	outline:0;
+	background-color: white;
+	width:250px;
+	margin:5px auto;
+	border: 2px solid #28A1D1;
+	border-radius:5px;
+	color: #A1ABAC;
+	font-size:14px;
+	padding:10px;
+	box-sizing: content-box;
+}
+
+form#formRegister  input.special_checkbox {
+	box-sizing:border-box;
+	-webkit-appearance: none;
+	display: inline-block;
+	position: relative;
+	border: 2px solid #00ADEF;
+	width:8px;
+	height:8px;
+	background-color: black;
+	padding: 8px;
+	cursor:pointer;
+}
+
+input.special_checkbox:active, input.special_checkbox:checked:active {
+	cursor:pointer;
+}
+
+input.special_checkbox:checked {
+	border: 2px solid #00ADEF;
+	background-color: black;
+	color: #00ADEF;	
+	cursor:pointer;
+}
+
+input.special_checkbox:checked:after {
+	content: '\2714';
+	font-size: 13px;
+	position: absolute;
+	top: -2px;
+	left: 2px;
+	color: #00ADEF;
+	cursor:pointer;
+}
+
+label.special_checkbox_label {
+	font:14px sans-serif;
+	color: #A1ABAC;
+	position:absolute;
+	margin-left: 10px;
+	cursor:pointer;
+}
+
+label.special_checkbox_label span{
+	color: #00ADEF;
+	cursor:pointer;
+	display:inline-block;
+	margin:5px;
+}
+
+form#formRegister  input.special_submit:hover, form#formRegister  input.special_submit:active {
+    background-color: #44ADCC;
+	border-color: #023240;
+	cursor: pointer;
+	color: #023240;
+	transition: all .3s linear;
+}
+
+form#formRegister span, form#formRegister p{
+	cursor:default;
+	display:inline-block;
+	color:white;
+	font:15px sans-serif;
+}
+
+form#formRegister span#termsOfUse{
+	cursor:pointer;
+	color:#44ADCC;
+	font-weight:600;
+}
+
+form#formRegister p span{
+	color:#C1E4F2;
+}

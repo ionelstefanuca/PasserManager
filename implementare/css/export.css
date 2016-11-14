@@ -1,0 +1,29 @@
+div#body-continutExport ul li a img {
+    height: 100px;
+    width: 100px;
+    margin:50px auto;
+    display:block;
+}
+
+div#body-continutExportul li {
+    display: inline-block;
+}
+
+div#body-continutExport ul li {
+    display: inline-block;
+	border:2px solid black;
+	width:150px;
+	border-radius:10px;
+	opacity:0.5;
+	margin:0 20px;
+}
+
+div#body-continutExport ul li:hover {
+	opacity:1;
+}
+
+div#body-continutExport {
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+}
